@@ -18,6 +18,18 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+<distributionManagement>
+    <repository>
+        <id>my-release-repo</id>
+        <!-- CHANGE HERE by your team nexus server -->
+        <url>http://15.206.69.92:8081/repository/my-release-repo/</url>
+    </repository>
+    <snapshotRepository>
+        <id>my-release-repo</id>
+        <!-- CHANGE HERE by your team nexus server -->
+        <url>http://15.206.69.92:8081/repository/my-snapshot-repo/</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
@@ -28,6 +40,13 @@
     </dependency>
   </dependencies>
 
+  <repository>
+    <id>my-release-repo</id>
+    <name>maven-releases</name>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://15.206.69.92:8081/repository/my-release-repo/</url>
+</repository>
+  
   <build>
     <finalName>my-app</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
