@@ -17,18 +17,18 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
-<distributionManagement>
-    <repository>
-        <id>my-release-repo</id>
-        <!-- CHANGE HERE by your team nexus server -->
-        <url>http://15.206.69.92:8081/repository/my-release-repo/</url>
-    </repository>
-    <snapshotRepository>
-        <id>my-release-repo</id>
-        <!-- CHANGE HERE by your team nexus server -->
-        <url>http://15.206.69.92:8081/repository/my-snapshot-repo/</url>
-    </snapshotRepository>
+  </properties><distributionManagement>  
+	<repository>
+		<id>nexus</id>
+		<name>my-release-repo</name>
+		<url>http://15.206.69.92:8081/repository/my-release-repo/</url>
+	</repository>
+	
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>my-snapshot-repo</name>
+		<url>http://15.206.69.92:8081/repository/my-snapshot-repo/</url>
+	</snapshotRepository>	
 </distributionManagement>
 
   <dependencies>
