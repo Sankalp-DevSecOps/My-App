@@ -39,9 +39,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <repository>
-    <id>my-release-repo</id>
+  
+<repository>
+    <id>my-repo</id>
     <name>maven-releases</name>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://15.206.69.92:8081/repository/my-release-repo/</url>
