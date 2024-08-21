@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello I am Sankalp, I am learning AWS and Devops!</h2>
+<h2>Hello, I am Sankalp<br>I am learning AWS and DevOps!</h2>
 </body>
 </html>
