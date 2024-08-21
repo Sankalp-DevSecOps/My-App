@@ -10,10 +10,11 @@
   }
   h2 {
     text-align: center;
+    line-height: 1.6; /* Adjust this value if you want more or less spacing */
   }
 </style>
 </head>
 <body>
-<h2>Congratulations (*-*)<br>You deployed successfully :)</h2>
+<h2>Congratulations (*-*)<br><br>You deployed successfully :)</h2>
 </body>
 </html>
