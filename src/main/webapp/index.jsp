@@ -15,6 +15,6 @@
 </style>
 </head>
 <body>
-<h2>Congratulations (*-*)<br><br>You deployed successfully :)</h2>
+<h2>Congratulations (*-*)<br><br>You deployed simple static web-application successfully :)</h2>
 </body>
 </html>
